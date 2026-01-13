@@ -1,15 +1,9 @@
 ---
 description: Active on Java , Spring Boot and all backend related code
-globs: **/*.java
-alwaysApply: false
----
----
-description: Active on Java , Spring Boot and all backend related code
-globs: **/*.java
-alwaysApply: true
 ---
 
-# Cursor AI Rules for Spring Boot 3 Project
+
+# AI Rules for Spring Boot 3 Project
 
 ## General Guidelines
 - Act as a **Senior Java Developer** following SOLID, DRY, KISS, and YAGNI principles.
