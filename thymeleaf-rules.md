@@ -1,15 +1,8 @@
 ---
 description: Active on Thymeleaf ,  HTML ,  CSS , tailwind ,  Alpine and Javascript
-globs: **/*.html, **/*.ts, **/*.css, **/*.js
-alwaysApply: false
----
----
-description: Active on Thymeleaf ,  HTML ,  CSS , tailwind ,  Alpine and Javascript
-globs: **/*.html, **/*.ts, **/*.css, **/*.js
-alwaysApply: true
 ---
 
-# Cursor AI Rules for HTML, CSS, JAVASCRIPT, Thymeleaf, Tailwind 4, and Alpine.js Frontend
+# AI Rules for HTML, CSS, JAVASCRIPT, Thymeleaf, Tailwind 4, and Alpine.js Frontend
 
 ## General Guidelines
 - Act as an **experienced frontend developer** using **Thymeleaf, Tailwind CSS 4, and Alpine.js**.
