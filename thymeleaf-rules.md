@@ -45,8 +45,10 @@ description: Active on Thymeleaf ,  HTML ,  CSS , tailwind ,  Alpine and Javascr
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title th:text="${title}">App</title>
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@4.x/dist/tailwind.min.css" rel="stylesheet">
+<!-- Use webjars -->
+      <script th:src="@{/webjars/htmx.org/dist/htmx.min.js}"></script>
+    <script th:src="@{/webjars/htmx-ext-sse/sse.js}"></script>
+    <script th:src="@{/webjars/alpinejs/dist/cdn.min.js}" defer></script>
 </head>
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
     <header th:replace="fragments/header :: header"></header>
